@@ -1,13 +1,13 @@
 import asyncio
 
-from pyrogram.enums import ChatMemberStatus
-from pyrogram.errors import (
+from hydrogram.enums import ChatMemberStatus
+from hydrogram.errors import (
     ChatAdminRequired,
     InviteRequestSent,
     UserAlreadyParticipant,
     UserNotParticipant,
 )
-from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
+from hydrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 from AnonXMusic import YouTube, app
 from AnonXMusic.misc import SUDOERS

@@ -1,4 +1,4 @@
-from pyrogram.types import InlineQueryResultArticle, InputTextMessageContent
+from hydrogram.types import InlineQueryResultArticle, InputTextMessageContent
 
 answer = []
 

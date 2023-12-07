@@ -1,7 +1,7 @@
 from typing import Union
 
-from pyrogram import filters, types
-from pyrogram.types import InlineKeyboardMarkup, Message
+from hydrogram import filters, types
+from hydrogram.types import InlineKeyboardMarkup, Message
 
 from AnonXMusic import app
 from AnonXMusic.utils import help_pannel

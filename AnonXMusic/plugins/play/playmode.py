@@ -1,5 +1,5 @@
-from pyrogram import filters
-from pyrogram.types import InlineKeyboardMarkup, Message
+from hydrogram import filters
+from hydrogram.types import InlineKeyboardMarkup, Message
 
 from AnonXMusic import app
 from AnonXMusic.utils.database import get_playmode, get_playtype, is_nonadmin_chat

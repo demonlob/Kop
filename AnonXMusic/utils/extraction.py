@@ -1,5 +1,5 @@
-from pyrogram.enums import MessageEntityType
-from pyrogram.types import Message, User
+from hydrogram.enums import MessageEntityType
+from hydrogram.types import Message, User
 
 from AnonXMusic import app
 

@@ -2,10 +2,10 @@ import platform
 from sys import version as pyver
 
 import psutil
-from pyrogram import __version__ as pyrover
-from pyrogram import filters
-from pyrogram.errors import MessageIdInvalid
-from pyrogram.types import InputMediaPhoto, Message
+from hydrogram import __version__ as pyrover
+from hydrogram import filters
+from hydrogram.errors import MessageIdInvalid
+from hydrogram.types import InputMediaPhoto, Message
 from pytgcalls.__version__ import __version__ as pytgver
 
 import config

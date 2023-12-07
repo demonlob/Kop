@@ -1,6 +1,6 @@
 from pykeyboard import InlineKeyboard
-from pyrogram import filters
-from pyrogram.types import InlineKeyboardButton, Message
+from hydrogram import filters
+from hydrogram.types import InlineKeyboardButton, Message
 
 from AnonXMusic import app
 from AnonXMusic.utils.database import get_lang, set_lang

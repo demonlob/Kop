@@ -1,5 +1,5 @@
-from pyrogram import filters
-from pyrogram.types import Message
+from hydrogram import filters
+from hydrogram.types import Message
 
 from AnonXMusic import app
 from AnonXMusic.utils import extract_user, int_to_alpha

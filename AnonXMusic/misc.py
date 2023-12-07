@@ -2,7 +2,7 @@ import socket
 import time
 
 import heroku3
-from pyrogram import filters
+from hydrogram import filters
 
 import config
 from AnonXMusic.core.mongo import mongodb

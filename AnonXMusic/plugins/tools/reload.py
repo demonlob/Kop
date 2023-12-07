@@ -1,9 +1,9 @@
 import asyncio
 import time
 
-from pyrogram import filters
-from pyrogram.enums import ChatMembersFilter
-from pyrogram.types import CallbackQuery, Message
+from hydrogram import filters
+from hydrogram.enums import ChatMembersFilter
+from hydrogram.types import CallbackQuery, Message
 
 from AnonXMusic import app
 from AnonXMusic.core.call import Anony

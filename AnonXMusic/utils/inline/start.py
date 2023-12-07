@@ -1,4 +1,4 @@
-from pyrogram.types import InlineKeyboardButton
+from hydrogram.types import InlineKeyboardButton
 
 import config
 from AnonXMusic import app

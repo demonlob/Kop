@@ -1,6 +1,6 @@
 {
     "name": "ᴀɴᴏɴ ダ ᴍᴜsɪᴄ",
-    "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
+    "description": "A Telegram Music Player Bot, written in Python with hydrogram and Py-Tgcalls.",
     "logo": "https://te.legra.ph/file/b8a0c1a00db3e57522b53.jpg",
     "keywords": [
     "python3",
@@ -9,7 +9,7 @@
     "AnonX",
     "MusicBot",
     "telegram-bot",
-    "pyrogram"
+    "hydrogram"
     ],
     "env": {
       "API_ID": {
@@ -38,7 +38,7 @@
         "required": true
       },
       "STRING_SESSION": {
-        "description": "A Pyrogram v2 String Session from @StringFatherBot on Telegram.",
+        "description": "A hydrogram v2 String Session from @StringFatherBot on Telegram.",
         "value": "",
         "required": true
       },

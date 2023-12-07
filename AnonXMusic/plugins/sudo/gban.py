@@ -1,8 +1,8 @@
 import asyncio
 
-from pyrogram import filters
-from pyrogram.errors import FloodWait
-from pyrogram.types import Message
+from hydrogram import filters
+from hydrogram.errors import FloodWait
+from hydrogram.types import Message
 
 from AnonXMusic import app
 from AnonXMusic.misc import SUDOERS

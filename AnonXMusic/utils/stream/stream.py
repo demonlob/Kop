@@ -2,7 +2,7 @@ import os
 from random import randint
 from typing import Union
 
-from pyrogram.types import InlineKeyboardMarkup
+from hydrogram.types import InlineKeyboardMarkup
 
 import config
 from AnonXMusic import Carbon, YouTube, app

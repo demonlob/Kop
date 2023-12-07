@@ -1,7 +1,7 @@
 import asyncio
 import importlib
 
-from pyrogram import idle
+from hydrogram import idle
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
