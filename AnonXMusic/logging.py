@@ -1,19 +1,19 @@
-import logging
+from logging import basicConfig, INFO, FileHandler, StreamHandler, getLogger, ERROR, Logger
 
-logging.basicConfig(
-    level=logging.INFO,
+basicConfig(
+    level=INFO,
     format="[%(asctime)s - %(levelname)s] - %(name)s - %(message)s",
     datefmt="%d-%b-%y %H:%M:%S",
     handlers=[
-        logging.FileHandler("log.txt"),
-        logging.StreamHandler(),
+        FileHandler("log.txt"),
+        StreamHandler(),
     ],
 )
 
-logging.getLogger("httpx").setLevel(logging.ERROR)
-logging.getLogger("pyrogram").setLevel(logging.ERROR)
-logging.getLogger("pytgcalls").setLevel(logging.ERROR)
+getLogger("httpx").setLevel(ERROR)
+getLogger("pyrogram").setLevel(ERROR)
+getLogger("pytgcalls").setLevel(ERROR)
 
 
-def LOGGER(name: str) -> logging.Logger:
-    return logging.getLogger(name)
+def LOGGER(name: str) -> Logger:
+    return getLogger(name)
